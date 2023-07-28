@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700&family=M+PLUS+1:wght@200&family=Monoton&display=swap');
+   
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* encabezado */
+
+header{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: .25rem .9375rem;
+   
+    
+}
+header h1{
+    text-indent: 12px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    letter-spacing: 7px;
+    color: beige;
+    
+   
+}
+
+header h2{
+    text-indent: 12px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: left;
+    
+    letter-spacing: 7px;
+    color: rgb(241, 241, 241);
+   
+}
+
+.navbar{
+    display: flex;
+    padding: 1.5rem 2.5rem 2.5rem 1.5rem;
+    list-style: none;
+    
+    gap: 1.25rem;
+    padding-right: 2.5rem ;
+    font-family: 'Monoton', cursive;    
+    text-decoration: none;
+    
+    
+}
+.navbar li a{
+    color: beige;
+        text-decoration: none;
+                }
+
+
+
+
+  /* MAIN */
+
+
+.main-ind{
+    display: flex;   
+    background-image: url(../assets/img/viñedo.jfif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 100%;
+    height: 900px;
+}
+.main-ind div img{
+    width: 100%;
+    height: 5%;
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-flow: row;
+
+
+}
+.texto-bienve{
+    display: flex;
+    flex-direction: column;
+    justify-content:end;
+    font-size: 40px;
+    width: 100%;
+    height: 31.25rem;
+    
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Cinzel Decorative', cursive;
+    color: beige;
+    letter-spacing: 7px;
+}
+
+
+
+
+/* CONTACTO */
+
+.main-con {
+    background-image: url(../assets/img/contacto\ visitas.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+fieldset {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style:double;
+    border-color: rgb(14, 17, 179);
+    font-weight: bolder ;
+    font-family: 'Cinzel Decorative', cursive;
+    color: beige;
+    letter-spacing: 7px;
+    
+    text-align: center;
+    
+}
+.listado {
+    margin-top: 20px ;
+    margin-left: 30%;
+}
+.listado input{
+    margin-top: 20px ;
+    margin-left: 30%;
+}
+
+fieldset legend{
+    font-size: 30px;
+}
+
+fieldset span{
+    font-size: 15px;
+}
+
+.listado-cont{
+   
+    width: 100%;
+    display: block;    
+   }
+
+.listado-cont iframe{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px ;
+    margin-left: 30%;
+}
+
+
+
+   /* FAMILIA */
+
+.main-fami{
+    width: 100%;
+    
+}
+.cont-fami img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.cont-fami{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 32% 32% 32%;
+    grid-template-areas: 
+    "g1 g2 g3"
+    "g4 g5 g6"
+    "g7 g8 g9"
+    ;
+    justify-content: center;
+    row-gap: .625rem;
+    margin-top: 10px;
+    }
+.img1{
+        grid-area: g1;
+    width: 100%;
+    
+    }
+    
+.pie1{
+        grid-area: g2;
+        background-color: lightblue;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight: bolder ;
+        font-family: 'Cinzel Decorative', cursive;
+        text-align: center;
+
+    }
+.descripcion1{
+        grid-area: g3;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        text-align: center;
+        background-color: lightblue;
+        font-weight: lighter;
+        font-family: 'M PLUS 1', sans-serif;
+        font-size: 20px;
+    }
+.img2{
+        grid-area: g5;
+                
+        }
+
+.pie2{
+        grid-area: g4;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: lightgoldenrodyellow;
+        width: 100%;
+        font-size: 20px;
+        font-weight: bolder ;
+        font-family: 'Cinzel Decorative', cursive;
+        text-align: center;
+
+    }
+.descripcion2{
+        grid-area: g6;
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-self: center;
+        background-color: lightgoldenrodyellow;
+        font-weight: lighter;
+        font-family: 'M PLUS 1', sans-serif;
+        font-size: 20px;
+    } 
+.img3{
+        grid-area: g9;
+        
+    }
+.pie3{
+        grid-area: g8;
+        background-color: lightpink;
+        width: 100%;
+        font-weight: bolder ;
+        font-family: 'Cinzel Decorative', cursive;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-weight: bolder ;
+        font-family: 'Cinzel Decorative', cursive;
+        text-align: center;
+
+    }
+.descripcion3{
+        grid-area: g7;
+        display: flex;
+        align-items: center;
+        justify-self: center;
+        background-color: lightpink;
+         width: 100%;
+         font-weight: lighter;
+        font-family: 'M PLUS 1', sans-serif;
+        font-size: 20px;
+        padding-left: 10px;
+
+    }
+
+
+
+
+/* VINOS */
+
+.video-vino {
+    background-image: url(../assets/img/coleccion.jfif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+
+}
+.variedad {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    width: 100%;
+    
+   }
+.vinos-malbec {
+    width: 300px;
+    
+    background-color:rgba(236, 241, 235, 0.582);
+    border-style: dashed;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    margin: 10px;
+    margin-top: 20px;
+    
+    border-radius: 10px;
+    box-shadow: -10px -10px 10px grey;
+
+    text-indent: 10px;
+    font-size: 20px;
+    font-weight:lighter;
+    font-family: 'Roboto', sans-serif;
+   }
+.vinos-caber {
+    width: 300px;
+    
+    background-color: rgba(236, 241, 235, 0.582);
+    border-style:hidden;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    margin: 10px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: -10px -10px 10px grey;
+
+    text-indent: 10px;
+    font-size: 20px;
+    font-weight:lighter;
+    font-family: 'Roboto', sans-serif;
+   }
+   .vinos-merl {
+    width: 300px;
+    
+    background-color: rgba(236, 241, 235, 0.582);
+    border-style:outset;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    margin: 10px;
+    margin-top: 20px;
+    
+    border-radius: 10px;
+    box-shadow: -10px -10px 10px grey;
+
+    text-indent: 10px;
+    font-size: 20px;
+    font-weight:unset;
+    font-family: 'Roboto', sans-serif;
+   }
+   .variedad figure{
+    margin-top: 10px;
+   }
+   .video-vino iframe{
+    display: flex;
+    
+   }
+
+    
+
+/* INSTITUTO */
+
+.instituto {
+    background-color: rgba(0, 255, 255, 0.26);
+    
+   }
+   .insti{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+   .insti img {
+    display: flex;
+    width: 100%;
+    height: 10.625rem;
+    flex-direction: column;
+    justify-content: right;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+   }
+   .estudio{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+   .estudio img {
+    height: 200px;
+    width: 200px;
+   }
+   .unive{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+   }
+   .unive img {
+    height: 200px;
+    width: 200px;
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+/* pie de pag */
+footer{
+    background-color: black;
+           
+    }
+footer section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    
+}    
+footer section div p{
+    width: 60%;
+    text-indent: 12px;
+    font-size: 8px;
+    font-weight: bold;
+    font-family: 'M PLUS 1', sans-serif;
+    letter-spacing: 7px;    
+    color: rgb(241, 241, 241);
+    text-align: left;
+   
+}
+/* .facbook-insta{
+    width: 5%;
+    height: 5%;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+} */
+
+.fac-ins {
+    display: flex;
+    width: 40%;
+    height: 12px;
+    padding-right: 1.25rem;
+}
+.fac-ins a{
+    display: flex;
+}
+.fac-ins a img{
+    width: 12px;
+    height: 12px;
+}
