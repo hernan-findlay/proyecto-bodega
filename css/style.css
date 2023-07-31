@@ -357,8 +357,9 @@ fieldset span{
 
 /* INSTITUTO */
 
-.instituto {
-    background-color: rgba(0, 255, 255, 0.26);
+.instituto section h1 {
+    width: 20%;
+    text-align: center;
     
    }
    .insti{
@@ -366,13 +367,15 @@ fieldset span{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-   }
+    border-style:double;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    margin: 10px;
+    margin-top: 20px;
+    background-color: rgba(4, 0, 255, 0.116);
+    }
    .insti img {
-    display: flex;
-    width: 100%;
-    height: 10.625rem;
-    flex-direction: column;
-    justify-content: right;
+    object-fit:contain;    
     align-items: center;
     height: 200px;
     width: 200px;
@@ -382,8 +385,15 @@ fieldset span{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    border-style:double;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    margin: 10px;
+    background-color:rgba(240, 128, 128, 0.137)
    }
    .estudio img {
+    object-fit:contain;    
+    align-items: center;
     height: 200px;
     width: 200px;
    }
@@ -392,8 +402,15 @@ fieldset span{
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+    border-style:double;
+    border-color: rgb(0, 0, 0);
+    border-width: 2px;
+    margin: 10px;
+    background-color: rgba(144, 238, 144, 0.116);
    }
    .unive img {
+    object-fit:contain;    
+    align-items: center;
     height: 200px;
     width: 200px;
    }
@@ -401,15 +418,11 @@ fieldset span{
 
 
 
-
-
-
-
-
-
-
-
 /* pie de pag */
+
+
+
+
 footer{
     background-color: black;
            
@@ -434,14 +447,6 @@ footer section div p{
     text-align: left;
    
 }
-/* .facbook-insta{
-    width: 5%;
-    height: 5%;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-} */
-
 .fac-ins {
     display: flex;
     width: 40%;
@@ -454,4 +459,141 @@ footer section div p{
 .fac-ins a img{
     width: 12px;
     height: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+
+@media (max-width: 1024px){
+
+}
+
+@media (max-width: 768px){
+
+}
+
+@media (max-width: 320px){
+    header{
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+       
+        width: 320px;
+    }
+    header h1{
+        text-indent: 12px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Cinzel Decorative', cursive;
+        text-align: center;
+        letter-spacing: 1px;
+        color: beige;
+        
+       
+    }
+    
+    header h2{
+        text-indent: 12px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Cinzel Decorative', cursive;
+        text-align: left;
+        
+        letter-spacing: 1px;
+        color: rgb(241, 241, 241);
+       
+    }
+    
+    .navbar{
+        display: flex;
+        padding: 1.5rem 2.5rem 2.5rem 1.5rem;
+        list-style: none;
+        flex-direction: column;
+        gap: 1.25rem;
+        
+        font-family: 'Monoton', cursive;    
+        text-decoration: none;
+        font-size: 10px;
+        
+    }
+    .navbar li a{
+        color: beige;
+            text-decoration: none;
+                    }
+
+
+    .main-ind{
+    display: flex;   
+    background-image: url(../assets/img/viñedo.jfif);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 320px;
+   
+    }
+    .main-ind div img{
+    width: 100%;
+    
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-flow: row;
+
+
+    }   
+    .texto-bienve{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    font-size: 10px;
+    width: 100%;
+    height: 31.25rem;
+    
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Cinzel Decorative', cursive;
+    color: beige;
+    letter-spacing: 1px;
+    }
+    footer{
+    background-color: black;
+           
+    }
+    footer section{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    
+    }    
+    footer section div p{
+    display: none;
+   
+    }
+    .fac-ins {
+    display: flex;
+    width: 40%;
+    height: 12px;
+    justify-content: center;
+    }
+    .fac-ins a{
+    display: flex;
+    }
+    .fac-ins a img{
+    width: 12px;
+    height: 12px;
+    }
 }
