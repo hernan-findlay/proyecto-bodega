@@ -598,9 +598,18 @@ footer section div p{
 
 
     /* CONTACTO VISITAS */
-    
-    .listado{
-        height: 100%;
+    .main-con{
+        background-image: none;
+        background-color: rgba(156, 228, 224, 0.349);
+        
+    }
+    fieldset{
+        font-size: 15px;
+        letter-spacing: 1px;
+        color: rgb(38, 38, 190);
+        border: none;
+        padding: 15px;
+        text-shadow: 10px;
     }
 
     .listado-cont iframe{
@@ -660,7 +669,7 @@ footer section div p{
     .instituto section p{
         width: 100%;
         text-align: center;
-        padding: 5px;
+        padding: 5px;   
     }
 
     .estudio{
