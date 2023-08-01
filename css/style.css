@@ -600,16 +600,13 @@ footer section div p{
     /* CONTACTO VISITAS */
     .main-con{
         background-image: none;
-        background-color: rgba(156, 228, 224, 0.349);
+        background-color: rgba(156, 228, 224, 0.171);
         
     }
-    fieldset{
+    .listado{
         font-size: 15px;
         letter-spacing: 1px;
-        color: rgb(38, 38, 190);
-        border: none;
-        padding: 15px;
-        text-shadow: 10px;
+        color: blue;
     }
 
     .listado-cont iframe{
