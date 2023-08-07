@@ -3,80 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CONTACTO VISITAS</title>
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
+    
+     
     <header>
-        <h2>CONTACTO VISITAS</h2>
-        <nav>
-            <ul class="navbar">
-                <li><a href="#">CONTACTO VISITAS</a></li>
-                <li><a href="./familia.html">FAMILIA</a></li>
-                <li><a href="./vinos.html">VINOS</a></li>
-                <li><a href="./instituto.html">INSTITUTO</a></li>
-                <li><a href="../index.html">INICIO</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-       <section class="main-con"> 
-       
-            <section class="listado-cont">
-            
-                <form action="listado">
-                <fieldset>
-                <legend>Comlpete sus datos</legend>
-                
-                <label for="nombre">
-                    <span>Nombre y apellido:</span>
-                    <input type="text" id="nombre" required>
-                </label>
-                <label for="canti">
-                    <span>Cantidad de participantes:</span>
-                    <input type="num" id="cantidad" required>
-                </label>
-                <label for="fecha">
-                    <span>Fecha:</span>
-                    <input type="text" id="fecha" required>
-                </label>
-                
-                <label for="mailotel">
-                    <span>Deje su contacto (mail o celular):</span>
-                    <input type="text" id="email" required>
-                </label>
+      <div class="container-fluid  fixed-top bg-dark" style="color: #1c1c1d" data-bs-theme="dark">
+          <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                  <h1 class="fst-italic fw-bold" style="color: burlywood;">TINA CATINA</h1>
+                  
+                  <div class="collapse navbar-collapse justify-content-end fw-lighter "   id="navbarSupportedContent" >
+                      <div class="navbar-nav " >
+                          <a class="nav-link"  href="../index.html">Inicio</a>
+                          <a class="nav-link" href="./contacto-visitas.html">Contacto visitas</a>
+                          <a class="nav-link" href="./instituto.html">Instituto</a>
+                          <a class="nav-link" href="./familia.html">Familia</a>
+                          <a class="nav-link" href="./vinos.html">Vinos</a>
+                          
+                      </div>
+                  </div>
+              </div>
+          </nav>
+          
+      </div>
 
-                <label for="comen">
-                    <span>Deje su comentario</span>
-                    <input type="text" id="" required>
-                </label>
-                
-                </fieldset>
-                <input type="submit">
-                </form>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13115.436678969623!2d-58.405683200000006!3d-34.73394405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1690170098476!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        
-            </section>
-        </section>  
-        
-    </main>
-    <footer>
-        
-        <section>
-            <div><p>Derechos reservados @Coopyright</p></div>
-            <section class="fac-ins">
-                <a href="https://www.facebook.com/">
-                    <img src="../assets/img/Vector face.png" alt="face">
-                </a>
-                <a href="https://www.instagram.com/">
-                    <img src="../assets/img/Instagram vec.png" alt="Instagram">
-                </a>
-                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Des">
-                    <img src="../assets/img/Twitter.png" alt="Twitter">
-                </a>
-            </section> 
+      
+  </header>
+<main>
             
-        </section>    
-    </footer>
+               
+              <div class="container">
+                  <div class="row">               
+                    <div class="row g-5">
+                      
+                      <!-- Formulario de contacto -->
+                      <div class="col-md-7 col-lg-8 input-group d-flex justify-content-left text-primary-emphasis bg-primary-subtle border border-primary" >
+                        <h4 class="mb-3">DATOS DE CONTACTO</h4>
+                          <form id="formCtto" class="needs-validation" >
+                            <div class="row g-3">
+                              <div class="col-sm-6">
+                                <label for="apellido" class="form-label">Apellido</label>
+                                <input type="text" name="apellido" class="form-control" id="apellido" placeholder="Ingresá el apellido" value="" required>
+                                <div class="invalid-feedback">
+                                  Ingresa el apellido.
+                                </div>
+                              </div>
+                              <div class="col-sm-6">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" name="nombre" class="form-control" id="nombre" placeholder="Ingresá el nombre" value="" required>
+                                <div class="invalid-feedback">
+                                  Ingresa el nombre.
+                                </div>
+                              </div>
+          
+                              <div class="col-md-3">
+                                <label for="tipoDoc" class="form-label">Tipo</label>
+                                <select class="form-select" name="tipoDoc" id="tipoDoc" required>
+                                  <option value="">Tipo</option>
+                                  <option value="1">DNI</option>
+                                  <option value="2">CI</option>
+                                  <option value="3">LC</option>
+                                  <option value="4">LE</option>
+                                  <option value="5">PAS</option>
+                                </select>
+                              </div>
+                              <div class="col-md-3">
+                                <label for="documento" class="form-label">Documento</label>
+                                <input type="number" name="documento" class="form-control" id="documento" placeholder="Ingresá el número" required>
+                                <div class="invalid-feedback">
+                                  Ingresá el número.
+                                </div>
+                              </div>
+
+                              <div class="col-md-3">
+                                <label for="tipoDoc" class="form-label">Cantidad de personas</label>
+                                <select class="form-select" name="tipoDoc" id="tipoDoc" required>
+                                  <option value="">...</option>
+                                  <option value="1">2</option>
+                                  <option value="2">3</option>
+                                  <option value="3">4</option>
+                                  <option value="4">5</option>
+                                  <option value="5">6</option>
+                                </select>
+                              </div>
+                                        
+                              <div class="col-12">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" name="mail" class="form-control" id="email" placeholder="nombre@mail.com" required>
+                                <div class="invalid-feedback">
+                                  Ingresá el email.
+                                </div>
+                              </div>
+          
+                              <div class="col-sm-6">
+                                <label for="tel" class="form-label">Teléfono</label>
+                                <input type="number" name="tel" class="form-control" id="tel" placeholder="Ingresá el teléfono (11 44445555)" required>
+                                <div class="invalid-feedback">
+                                  Ingresá el teléfono.
+                                </div>
+                              </div>
+                              <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Comentario</label>
+                              </div>             
+                                 
+                        <hr class="my-2">
+                        <div class="form-check">
+                          <input type="checkbox" name="checkSueldo" class="form-check-input" id="checkSueldo">
+                          <label class="form-check-label" for="checkSueldo">Aceptar terminos y condiciones</label>
+                        </div>
+                        
+                        <hr class="my-2">
+                       
+                      <button class="w-100 btn btn-light btn-lg" style="margin-bottom: 1.25rem;" type="submit">Enviar</button>                
+                  </form>
+
+                </div>
+              </div>  
+           
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d13115.436678969623!2d-58.405683200000006!3d-34.73394405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1690170098476!5m2!1ses!2sar" margin-bottom=20px width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            
+                
+          
+            
+        </main>
+        <footer class="bg-dark">
+
+          <nav class="navbar navbar-expand-lg align">
+            <div class="container-fluid">
+                <p style="color: burlywood;">Coopiright, derechos reservados...</p>
+                
+                <div class="collapse navbar-collapse justify-content-end"  id="navbarSupportedContent" >
+                    <div class="navbar-nav" style="align-items: center; margin: .625rem;" >
+                        <a  href="www.facebook.com"> <img src="../assets/img/Vector face.png" alt=""></a>
+                        <a  href="https://www.instagram.com/"> <img src="../assets/img/Instagram vec.png" alt=""></a>
+                        <a  href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Des"> <img src="../assets/img/Twitter.png" alt=""></a>
+                       
+                        
+                    </div>
+                </div>
+            </div>
+        </nav>
+        </footer>
+            
+       
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
 </body>
+
+
 </html>
