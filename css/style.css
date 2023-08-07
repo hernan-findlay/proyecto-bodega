@@ -475,10 +475,150 @@ footer section div p{
 
 
 @media (max-width: 1024px){
+    header h1{
+        text-indent: 12px;
+        font-size: 50px;
+        font-weight: bold;
+        font-family: 'Cinzel Decorative', cursive;
+        text-align: center;
+        letter-spacing: 1px;
+        color: beige;
+        
+       
+    }
+    .navbar{
+        display: flex;
+        padding: 1rem;
+        list-style: none;
+        flex-direction: row;
+        gap: 1.25rem;
+        text-align: center;
+        font-family: 'Monoton', cursive;    
+        text-decoration: none;
+        font-size: 12px;
+        
+    }
+    .cont-fami p{
+        font-size: 10px;
+        text-shadow: 10px;
+        
+    }
+    
+    .descripcion3{
+        font-size: 10px;
+        
+    }
+
 
 }
 
 @media (max-width: 768px){
+    
+    header h1{
+        text-indent: 12px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Cinzel Decorative', cursive;
+        text-align: center;
+        letter-spacing: 1px;
+        color: beige;
+        
+       
+    }
+    header h2{
+        text-indent: 12px;
+        font-size: 15px;
+        font-weight: bold;
+        font-family: 'Cinzel Decorative', cursive;
+        text-align: left;
+        
+        letter-spacing: 1px;
+        color: rgb(241, 241, 241);
+       
+    }
+    .navbar{
+        display: flex;
+        padding: 1rem;
+        list-style: none;
+        flex-direction: row;
+        gap: 1.25rem;
+        text-align: center;
+        font-family: 'Monoton', cursive;    
+        text-decoration: none;
+        font-size: 7px;
+        
+    }
+    /* index */
+    .texto-bienve{
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        font-size: 10px;
+        width: 100%;
+        height: 31.25rem;
+        
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Cinzel Decorative', cursive;
+        color: beige;
+        letter-spacing: 1px;
+        }
+    
+        /* FAMILIA */
+
+
+    .cont-fami p{
+        font-size: 10px;
+        
+    }
+    .cont-fami{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+    .descripcion3{
+        font-size: 10px;
+        
+    }
+
+    /* contacto */
+
+    .listado-cont iframe{
+        width: 320px;
+        height: 320px;
+        display: flex;
+        
+    }
+
+    /* vinos */
+
+    .variedad{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .variedad h1{
+        text-align: center;
+       font-size: 15px;
+    }
+    .variedad p{
+        font-size: 10px;
+    }
+    .variedad section figure{
+        display: flex;
+        justify-content: center;
+        }
+    .variedad section img{
+        width: 100px;
+    }    
+    .video-vino iframe{
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+
+    }
+
 
 }
 
