@@ -4,12 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>INSTITUTO CATENA</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <header>
+          <div class="container-fluid d-flex justify-content-end fixed-top bg-dark" style="color: #1c1c1d" data-bs-theme="dark">
+          <nav class="navbar navbar-expand-lg">
+              <div class="container-fluid">
+                  <h1 class="fst-italic fw-bold" style="color: burlywood;">TINA CATINA</h1>
+                  
+                  <div class="collapse navbar-collapse justify-content-end fw-lighter "   id="navbarSupportedContent" >
+                      <div class="navbar-nav " >
+                          <a class="nav-link"  href="../index.html">Inicio</a>
+                          <a class="nav-link" href="./contacto-visitas.html">Contacto visitas</a>
+                          <a class="nav-link" href="*">Instituto</a>
+                          <a class="nav-link" href="./familia.html">Familia</a>
+                          <a class="nav-link" href="./vinos.html">Vinos</a>
+                          
+                      </div>
+                  </div>
+              </div>
+          </nav>
+          
+      </div>
+
+
+
         
-        <h2>INSTITUTO CATENA</h2>
+        <!-- <h2>INSTITUTO CATENA</h2>
         <nav>
             <ul class="navbar">
                 <li><a href="#">INSTITUTO</a></li>
@@ -18,12 +41,43 @@
                 <li><a href="./familia.html">FAMILIA</a></li>
                 <li><a href="../index.html">INICIO</a></li>
             </ul>
-        </nav>
+        </nav> -->
     </header>
     <main>
+        
+        
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="../assets/img/daniel-vogel-sVothhm7iRI-unsplash.jpg" class="d-block w-100 " alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/timur-m-HIJmPH-Ghfc-unsplash.jpg" class="d-block w-100 " alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="../assets/img/thomas-schaefer-ApoYbda6_3Y-unsplash (1).jpg    " class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previa</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+              </div>
+       
+        
+        
         <section class="instituto">
             <section class="insti">
-                <h1>INSTITUTO</h1>
+                <h1 class="align-items-center">INSTITUTO</h1>
                 <p>Hoy el Instituto del Vino de Catena , en conjunto con el equipo de Enología y Viticultura de Catena, tiene la ambiciosa misión de hacer vinos argentinos que puedan estar a la altura de los mejores del mundo y de hacer avanzar las regiones vitivinícolas de Argentina por otros 100 años.</p> 
                 <p>En colaboración con la Universidad de California Davis y la Universidad Nacional de Cuyo , The Catena Institute brinda liderazgo para los programas universitarios de investigación y desarrollo. A través de estas alianzas académicas, el Instituto busca avanzar y promover el conocimiento del vino en beneficio de los técnicos enólogos y de la comunidad vitivinícola en su conjunto. </p>
                 <img src="../assets/img/insti.jpg" alt="">
@@ -34,7 +88,7 @@
                 <p>Hoy, el equipo de Katina Institute of Wine se dedica a estudiar cada metro, cada roca, cada insecto y microorganismo en el Viñedo Adrianna, convirtiéndolo quizás en el viñedo más estudiado del mundo.</p>
                 <img src="../assets/img/insti1.jpg" alt="">
             </section>
-            <section class="unive">
+            <section class="">
                 <h1>UNIVERSIDAD</h1>
                 <p>La Universidad Nacional de Cuyo es una de las universidades más respetadas de Argentina. Su Escuela de Agronomía ha formado a los mejores viticultores de la región. Actualmente, estamos trabajando con sus mejores estudiantes de posgrado en un esfuerzo por caracterizar los terroirs vitivinícolas de Mendoza.</p> 
                     <p>Como resultado, hemos descubierto que los suelos de Adrianna Vineyard están vivos y que, de hecho, las rizobacterias presentes en este suelo contribuyen en gran medida a la calidad de la uva ya una mejor adaptación de las plantas a su entorno.</p>
@@ -43,23 +97,29 @@
         </section>
     </main>
     
-    <footer>
-        
-        <section>
-            <div><p>Derechos reservados @Coopyright</p></div>
-            <section class="fac-ins">
-                <a href="https://www.facebook.com/">
-                    <img src="../assets/img/Vector face.png" alt="face">
-                </a>
-                <a href="https://www.instagram.com/">
-                    <img src="../assets/img/Instagram vec.png" alt="Instagram">
-                </a>
-                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Des">
-                    <img src="../assets/img/Twitter.png" alt="Twitter">
-                </a>
-            </section> 
-            
-        </section>    
-    </footer>
+    <footer class="bg-dark">
+
+        <nav class="navbar navbar-expand-lg align">
+          <div class="container-fluid">
+              <p style="color: burlywood;">Coopiright, derechos reservados...</p>
+              
+              <div class="collapse navbar-collapse justify-content-end"  id="navbarSupportedContent" >
+                  <div class="navbar-nav" style="align-items: center; margin: .625rem;" >
+                      <a  href="www.facebook.com"> <img src="../assets/img/Vector face.png" alt=""></a>
+                      <a  href="https://www.instagram.com/"> <img src="../assets/img/Instagram vec.png" alt=""></a>
+                      <a  href="https://twitter.com/i/flow/login?redirect_after_login=%2F%3Flang%3Des"> <img src="../assets/img/Twitter.png" alt=""></a>
+                     
+                      
+                  </div>
+              </div>
+          </div>
+      </nav>
+      </footer>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>
 </body>
+
+
 </html>
