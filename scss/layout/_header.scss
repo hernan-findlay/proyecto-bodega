@@ -1,9 +1,32 @@
-.enca {
-    background-color: black; }
-    .enca nav div ul li a {
-      font-size: 1.25rem;
-      color: burlywood; }
-    .enca nav div h1 {
-      font-size: 3.125rem;
-      color: burlywood; }
-  
+.enca{
+  background-color: black;
+   nav{
+       
+       div{ 
+        display: flex;
+        justify-content: space-between;
+          ul{
+               
+               li{
+                   a{
+                    font-family: 'Cinzel Decorative', cursive;
+                    font-family: 'M PLUS 1', sans-serif;
+                    font-family: 'Monoton', cursive;
+                   font-size: 1.25rem;
+                   color: $color-text-enca; 
+                   }
+                   &.hover{
+                    color: white;
+                   }
+               }
+              
+               
+                  
+           }
+           h1{
+               font-size: 3.125rem;
+               color: $color-text-enca;
+           }
+       }
+   }
+}

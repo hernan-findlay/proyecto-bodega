@@ -1,37 +1,11 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "./utlities/variables";
+
+@import "./layout/header";
 
 
-.enca{
-   background-color: black;
-    nav{
-        
-        div{
-           ul{
-                
-                li{
-                    a{
-                    
-                    font-size: 1.25rem;
-                    color: burlywood; 
-                    }
-                }
-               
-                
-                   
-            }
-            h1{
-                font-size: 3.125rem;
-                color: burlywood;
-            }
-        }
-    }
-}
+@import "../scss/layout/mainindex";
 
-    
+
 .formu{
     width: 50%;
     display: block;

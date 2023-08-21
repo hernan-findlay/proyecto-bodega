@@ -1,17 +1,36 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box; }
-
+@charset "UTF-8";
 .enca {
   background-color: black; }
-  .enca nav div ul li a {
-    font-size: 1.25rem;
-    color: burlywood; }
-  .enca nav div h1 {
-    font-size: 3.125rem;
-    color: burlywood; }
+  .enca nav div {
+    display: flex;
+    justify-content: space-between; }
+    .enca nav div ul li a {
+      font-family: 'Cinzel Decorative', cursive;
+      font-family: 'M PLUS 1', sans-serif;
+      font-family: 'Monoton', cursive;
+      font-size: 1.25rem;
+      color: burlywood; }
+    .enca nav div ul li.hover {
+      color: white; }
+    .enca nav div h1 {
+      font-size: 3.125rem;
+      color: burlywood; }
 
+.main-ini {
+  width: 100%;
+  height: 31.25rem;
+  background-image: url("../../assets/img/viñedo a lo largo (1).png");
+  display: flex;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .main-ini div p {
+    margin-top: 1.875rem;
+    font-size: 1.875rem;
+    text-decoration: dotted;
+    color: rgba(4, 40, 41, 0.418);
+    text-decoration: underline;
+    text-align: center; }
 
 .formu {
   width: 50%;
