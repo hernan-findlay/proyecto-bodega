@@ -1,19 +1,27 @@
 .enca{
   background-color: black;
+  
+    h1{
+        font-size: 3.125rem;
+        
+        
+    }
+    
+    
    nav{
        
        div{ 
-        display: flex;
-        justify-content: space-between;
+        flex-grow:unset;
           ul{
-               
+            display: flex;
+            justify-content:space-evenly;
                li{
                    a{
                     font-family: 'Cinzel Decorative', cursive;
                     font-family: 'M PLUS 1', sans-serif;
                     font-family: 'Monoton', cursive;
                    font-size: 1.25rem;
-                   color: $color-text-enca; 
+                   
                    }
                    &.hover{
                     color: white;
@@ -23,10 +31,7 @@
                
                   
            }
-           h1{
-               font-size: 3.125rem;
-               color: $color-text-enca;
-           }
+           
        }
    }
 }

@@ -1,20 +1,20 @@
 @charset "UTF-8";
 .enca {
   background-color: black; }
+  .enca h1 {
+    font-size: 3.125rem; }
   .enca nav div {
-    display: flex;
-    justify-content: space-between; }
-    .enca nav div ul li a {
-      font-family: 'Cinzel Decorative', cursive;
-      font-family: 'M PLUS 1', sans-serif;
-      font-family: 'Monoton', cursive;
-      font-size: 1.25rem;
-      color: burlywood; }
-    .enca nav div ul li.hover {
-      color: white; }
-    .enca nav div h1 {
-      font-size: 3.125rem;
-      color: burlywood; }
+    flex-grow: unset; }
+    .enca nav div ul {
+      display: flex;
+      justify-content: space-evenly; }
+      .enca nav div ul li a {
+        font-family: 'Cinzel Decorative', cursive;
+        font-family: 'M PLUS 1', sans-serif;
+        font-family: 'Monoton', cursive;
+        font-size: 1.25rem; }
+      .enca nav div ul li.hover {
+        color: white; }
 
 .main-ini {
   width: 100%;
