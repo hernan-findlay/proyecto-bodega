@@ -1,0 +1,25 @@
+
+    
+    .vinos{
+        background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+        div{
+            margin: .9375rem;
+               
+        }
+    }
+
+.card{
+         margin: 1.25rem;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+        img{
+            width: 50%;
+            margin: .9375rem;
+        }
+        
+
+    
+ }
