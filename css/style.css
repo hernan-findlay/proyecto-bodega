@@ -1,20 +1,23 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&family=Pacifico&family=Tilt+Prism&display=swap");
 .enca {
   background-color: black; }
   .enca h1 {
-    font-size: 3.125rem; }
+    font-family: "Indie Flower", cursive;
+    font-size: 4.375rem;
+    color: burlywood; }
   .enca nav div {
     flex-grow: unset; }
     .enca nav div ul {
       display: flex;
       justify-content: space-evenly; }
       .enca nav div ul li a {
-        font-family: 'Cinzel Decorative', cursive;
-        font-family: 'M PLUS 1', sans-serif;
-        font-family: 'Monoton', cursive;
-        font-size: 1.25rem; }
+        font-family: "Tilt Prism", cursive;
+        font-size: 1.875rem;
+        color: burlywood; }
       .enca nav div ul li.hover {
-        color: white; }
+        color: white;
+        font-size: 5%; }
 
 .main-ini {
   width: 100%;
@@ -33,23 +36,30 @@
     text-align: center; }
 
 .vinos {
-  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12); }
-  .vinos div {
-    margin: .9375rem; }
+  background-image: linear-gradient(to bottom, #380f46, #4e146b, #611c94, #7226c0, #7d34f0); }
+  .vinos iframe {
+    margin: 1.25rem; }
 
 .card {
+  font-family: "Lobster", cursive;
+  font-size: 1.25rem;
   margin: 1.25rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center; }
+  .card .card-title {
+    font-family: "Tilt Prism", cursive;
+    font-size: 1.875rem; }
   .card img {
     width: 50%;
     margin: .9375rem; }
 
 .main-cont {
-  background-image: linear-gradient(to top, #742e12, #97561a, #b48125, #c9b038, #d6e158); }
+  background-image: linear-gradient(to bottom, #380f46, #4e146b, #611c94, #7226c0, #7d34f0); }
+  .main-cont div iframe {
+    margin: 20px; }
 
 .formu {
   width: 100%;
@@ -60,6 +70,60 @@
     flex-direction: column;
     width: 75%;
     border-radius: 5px;
-    border-style: double;
+    border-style: groove;
     padding: 10px;
     margin-top: 1.25rem; }
+    .formu form div label {
+      font-family: "Lobster", cursive;
+      color: antiquewhite; }
+    .formu form h2 {
+      font-family: "Indie Flower", cursive;
+      color: antiquewhite; }
+
+.carru {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  background-color: lightgrey; }
+  .carru div {
+    height: 300px; }
+
+.instituto .insti {
+  background-color: lightcyan;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; }
+
+.instituto .estu {
+  background-color: lightyellow;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; }
+
+.instituto .uni {
+  background-color: lightblue;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px; }
+
+.instituto h1 {
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 50px; }
+
+.instituto p {
+  font-family: "Pacifico", cursive; }
+
+footer nav div div div a img {
+  width: 50%; }
+
+footer nav div p {
+  font-family: "Pacifico", cursive;
+  color: burlywood; }

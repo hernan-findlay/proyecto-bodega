@@ -1,5 +1,13 @@
+
+
+
+
+
 @import "./utlities/variables";
+@import "./utlities/mixins";
 @import "./utlities/funciones";
+
+
 
 
 
@@ -17,39 +25,10 @@
 
 @import "../scss/layout/main-cont";
 
+@import "../scss/layout/main-insti";
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@import "../scss/layout/footer";
 
 
 

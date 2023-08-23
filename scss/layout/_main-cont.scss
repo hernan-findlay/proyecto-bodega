@@ -1,5 +1,10 @@
 .main-cont{
-    background-image: linear-gradient(to top, #742e12, #97561a, #b48125, #c9b038, #d6e158);
+    background-image: linear-gradient(to bottom, #380f46, #4e146b, #611c94, #7226c0, #7d34f0);
+    div{
+        iframe{
+            margin: 20px;
+        }
+    }
 }
 .formu{
     width: 100%;
@@ -10,9 +15,20 @@
         flex-direction: column;
         width: 75%;
         border-radius: 5px;
-        border-style: double;
+        border-style:groove;
         padding: 10px;
         margin-top: 1.25rem;
+        
+        div{
+            label{
+                font-family: $text-titulo;
+                color: antiquewhite;
+            }
+        }
+        h2{
+            font-family: $text-parra;
+            color: antiquewhite;
+        }
     }
     
     

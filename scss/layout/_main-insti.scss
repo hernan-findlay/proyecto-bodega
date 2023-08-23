@@ -1,0 +1,35 @@
+.carru{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    background-color: lightgrey;
+    div{
+        
+        height: 300px;
+           
+    }
+    
+}
+.instituto{
+    .insti{
+        background-color: lightcyan;
+        @include flex;
+    }
+    .estu{
+        background-color: lightyellow;
+        @include flex;
+    }
+    .uni{
+        background-color: lightblue;
+        @include flex;
+    }
+    h1{
+        font-family: $text-parra;
+        font-weight:bold;
+        text-decoration: underline;
+        font-size: 50px;
+        }
+    p{
+        font-family: $titulo-parra;
+    }    
+}

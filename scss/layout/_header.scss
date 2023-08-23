@@ -2,9 +2,9 @@
   background-color: black;
   
     h1{
-        font-size: 3.125rem;
-        
-        
+      font-family: $text-parra;
+      font-size: 4.375rem;
+      color: $color-text-enca
     }
     
     
@@ -17,14 +17,14 @@
             justify-content:space-evenly;
                li{
                    a{
-                    font-family: 'Cinzel Decorative', cursive;
-                    font-family: 'M PLUS 1', sans-serif;
-                    font-family: 'Monoton', cursive;
-                   font-size: 1.25rem;
+                    font-family: $solapas;
+                   font-size: 1.875rem;
+                   color: $color-text-enca;
                    
                    }
                    &.hover{
                     color: white;
+                    font-size: 5%;
                    }
                }
               
