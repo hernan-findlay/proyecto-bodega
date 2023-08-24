@@ -1,0 +1,40 @@
+.fami1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: .9375rem;
+    
+    background-color: map-get($map: $colores, $key:color1 );
+    div{
+        p{
+            font-family: $text-fami;
+            font-size: 10px;
+           text-align: right;
+        }
+        h1{
+            font-family: $text-titu-fami;
+            width: 300;
+            height: 200;
+            padding: 15px;
+        }
+    }    
+}
+
+.fami2{
+    @extend .fami1;
+    background-color: map-get($map: $colores, $key:color2 );
+    color: aliceblue;
+}
+
+.fami3{
+    @extend .fami1;
+    background-color: map-get($map: $colores, $key:color5 );
+   
+    div{
+        dl{
+            font-family: $text-fami;
+            font-size: 10px;
+        }
+    }
+}
