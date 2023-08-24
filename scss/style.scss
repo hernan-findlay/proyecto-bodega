@@ -1,8 +1,3 @@
-
-
-
-
-
 @import "./utlities/variables";
 @import "./utlities/mixins";
 @import "./utlities/funciones";
@@ -25,5 +20,8 @@
 
 @import "../scss/layout/footer";
 
+@import "./layout/mediaqu/1024";
+@import "./layout/mediaqu/mq990";
+@import "./layout/mediaqu/mq320";
 
 
